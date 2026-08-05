@@ -15,13 +15,11 @@ import '../screens/image_editor_screen.dart';
 import '../screens/preview_screen.dart';
 import '../theme/studio_colors.dart';
 
-/// Holds the [GoRouter] instance for the app.
 final studioRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
-    initialLocation: '/editor',
+    initialLocation: '/camera',
     debugLogDiagnostics: true,
     routes: [
-      // ── Studio routes (the editor) ────────────────────────────────────
       GoRoute(
         path: '/camera',
         name: 'camera',
