@@ -7,6 +7,14 @@ environment:
   sdk: ">=3.3.0 <4.0.0"
   flutter: ">=3.19.0"
 
+# ===========================================================================
+# CREATOR STUDIO — PURE EDITOR (No Social, No Live)
+# ---------------------------------------------------------------------------
+# This package is a pure video editor. It records, edits, and exports.
+# Social media features (feed, stories, profile) and live streaming are
+# intentionally excluded — they belong to your main social app.
+# ===========================================================================
+
 dependencies:
   flutter:
     sdk: flutter
@@ -69,8 +77,8 @@ dependencies:
   # ─── 🗂️ Draggable layered canvas ───────────────────────────────────────
   stack_board: ^0.5.0
 
-  # ─── 🤖 Auto Captions (Whisper offline, 99 languages) ───────────────────
-  flutter_whisper_kit: ^1.1.0
+  # ─── 🤖 Auto Captions (Whisper offline, cross-platform iOS+Android) ─────
+  whisper_ggml: ^1.9.2
 
   # ─── 🔧 Utilities ───────────────────────────────────────────────────────
   path_provider: ^2.1.4
